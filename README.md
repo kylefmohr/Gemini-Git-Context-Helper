@@ -1,0 +1,4 @@
+# Gemini Git Context Helper
+This is a small script I wrote that takes a git repository URL, and uses that to create a .json file with the file paths, filenames, and file contents of the repository. I'm using this along with [Google's Gemini 1.5 Pro](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/#gemini-15) model and its very impressive context window to give it context on an entire Git repository. Via [AI Studio](https://aistudio.google.com), Gemini only accepts single text files as input, so this script is a workaround to give it the entire repository as context.
+
+This script assumes you have Git installed on your system.
